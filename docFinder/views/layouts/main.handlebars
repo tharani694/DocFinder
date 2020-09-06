@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DocFinder</title>
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
+	<body>
+		<div id="wrap">
+
+<div id="header">
+	<h1><a href="#">DocFinder</a></h1>
+	<h2>Search for local doctors</h2>
+</div>
+
+<div id="menu">
+	<ul>
+	<li><a href="/">Home</a></li>
+	<li><a href="/doctors">Browse Doctors</a></li>
+	<li><a href="/doctors/add">Add Doctor</a></li>
+	<li><a href="/categories/add">Add Category</a></li>
+	</ul>
+</div>
+
+<div id="content">
+	<div class="left"> 
+		{{{body}}}
+	</div>
+
+	<div class="right"> 
+		{{>categories}}
+	</div>
+
+	<div style="clear: both;"> </div>
+
+	</div>
+</div>
+
+	</body>
+</html>
